@@ -1,11 +1,11 @@
 eureka:
   instance:
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://serviceregistry:8761/eureka
+      defaultZone: http://172.20.0.2:8761/eureka
 
 football:
   api:
